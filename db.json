@@ -7,6 +7,19 @@
     {
       "id": "hele",
       "name": "Helena"
+    },
+    {
+      "id": "vIxyqpXWOUQ",
+      "name": "antonio"
+    },
+    {
+      "id": "qlBZyYRLP6A",
+      "name": "antonio"
+    },
+    {
+      "id": "SxssdLl5YkY",
+      "name": "Foo Bar"
     }
-  ]
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
 }
