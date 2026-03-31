@@ -8,7 +8,7 @@ export default function useUser() {
     'idle' | 'loading' | 'saving'
   >('idle');
 
-  async function getUser(username: string) {
+  const getUser = React.useCallback(async (username: string) => {
     try {
       setRequestStatus('loading');
       const data = await fetcher(`/users/${username}`);
@@ -19,7 +19,7 @@ export default function useUser() {
     } finally {
       setRequestStatus('idle');
     }
-  }
+  }, []);
 
   return {
     user,
