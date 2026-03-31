@@ -1,8 +1,9 @@
 import React from 'react';
 import { fetcher } from '../helpers/api';
+import type { User } from '../models/user';
 
 export default function useUser() {
-  const [user, setUser] = React.useState(null);
+  const [user, setUser] = React.useState<User | null>(null);
   const [requestStatus, setRequestStatus] = React.useState<
     'idle' | 'loading' | 'saving'
   >('idle');
