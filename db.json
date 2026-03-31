@@ -9,17 +9,12 @@
       "name": "Helena"
     },
     {
-      "id": "vIxyqpXWOUQ",
+      "id": "tony",
       "name": "antonio"
     },
     {
-      "id": "qlBZyYRLP6A",
-      "name": "antonio"
-    },
-    {
-      "id": "SxssdLl5YkY",
+      "id": "foo",
       "name": "Foo Bar"
     }
-  ],
-  "$schema": "./node_modules/json-server/schema.json"
+  ]
 }

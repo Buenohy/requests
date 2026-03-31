@@ -15,7 +15,7 @@ export default function UserInfo() {
   return (
     <ul>
       <li>Nome: {user?.name}</li>
-      <li>Username: {user?.id}</li>
+      <li>Username (id): {user?.id}</li>
     </ul>
   );
 }
